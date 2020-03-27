@@ -1,6 +1,6 @@
 
 s =("""   hello World
-This is at multi line 
+This is at multi line
 Print statement, no more
 single line printing   """)
 
