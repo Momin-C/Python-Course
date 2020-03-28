@@ -1,3 +1,5 @@
+#PROBLEM: https://cemc.uwaterloo.ca/contests/computing/2020/stage%201/juniorEF.pdf
+
 L = int(input("Num of lines: "))
 drops = []
 dropsX = []
