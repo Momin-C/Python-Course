@@ -1,4 +1,4 @@
-def calculator(a,b):
+def calculator(a,b): #Could also be (a=10,b=20) which would be default param
     sum = a+b
     difference = abs(a-b)
     product = a*b
