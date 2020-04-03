@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;pythonProject/pythonPackage.py&apos;" deleteContents="false" description="Delete resource &apos;pythonProject/pythonPackage.py&apos;" element1="/pythonProject/pythonPackage.py" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1585239233696"/>
-</session>

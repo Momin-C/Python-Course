@@ -1,8 +1,0 @@
-s =("""Hello World
-This is a multi line 
-Print stAtement, no more
-single line printing""")
-
-print (s)
-
-print (s[20])

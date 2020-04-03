@@ -1,3 +1,0 @@
-lst = [10,20,"Momin",-10,30.5]
-print (lst)
-print (lst[3:])

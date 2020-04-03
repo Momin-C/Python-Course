@@ -1,4 +1,0 @@
-import mymath as ma
-
-print(ma.sumOfNum(5,10))
-print(ma.diffOfNum(10,5))

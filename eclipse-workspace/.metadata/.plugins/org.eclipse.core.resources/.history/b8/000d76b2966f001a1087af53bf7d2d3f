@@ -1,4 +1,0 @@
-original = input("")
-matcher = input("")
-while (original != matcher):
-    print ("Hello")

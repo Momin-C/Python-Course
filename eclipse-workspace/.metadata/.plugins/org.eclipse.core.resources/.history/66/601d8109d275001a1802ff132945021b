@@ -1,3 +1,0 @@
-import mymath
-
-print(mymath.sumOfNum(5,10))
