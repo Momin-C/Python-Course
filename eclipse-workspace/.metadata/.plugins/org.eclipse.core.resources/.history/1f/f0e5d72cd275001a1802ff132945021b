@@ -1,0 +1,4 @@
+import mymath
+
+print(mymath.sumOfNum(5,10))
+print(mymath.diffOfNum(10,5))

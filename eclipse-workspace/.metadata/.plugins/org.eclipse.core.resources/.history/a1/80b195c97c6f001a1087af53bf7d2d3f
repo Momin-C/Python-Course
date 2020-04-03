@@ -1,0 +1,10 @@
+'''
+Created on Mar. 26, 2020
+
+@author: dev
+''
+sumNum = 0
+for counter in range (11):
+    sumNum = sumNum + counter
+    
+print (sumNum)

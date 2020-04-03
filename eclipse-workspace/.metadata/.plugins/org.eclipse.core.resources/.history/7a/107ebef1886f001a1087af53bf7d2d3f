@@ -1,0 +1,15 @@
+
+s =("""   Hello World
+This is at multi line 
+Print statement, no more
+single line printing   """)
+
+print (s)
+
+print (s[0:5])
+
+length = (len(s))
+print (s[80::-1]) 
+
+print(s.strip)
+        

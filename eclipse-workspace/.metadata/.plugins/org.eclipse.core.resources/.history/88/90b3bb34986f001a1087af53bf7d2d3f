@@ -1,0 +1,5 @@
+lst = []
+print (type(lst))
+
+tpl = ()
+print (type(tpl))

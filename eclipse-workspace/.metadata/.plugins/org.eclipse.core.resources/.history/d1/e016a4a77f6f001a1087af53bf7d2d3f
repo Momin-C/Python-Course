@@ -1,0 +1,5 @@
+a = 13
+b = 100
+c = 66
+print (a, b, c)
+print (type(a))

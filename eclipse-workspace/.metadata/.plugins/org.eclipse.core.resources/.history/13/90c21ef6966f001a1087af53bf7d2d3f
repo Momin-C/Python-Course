@@ -1,0 +1,7 @@
+lst = [10,20,-10,30.5,25,36,49,82,10,20,30,40]
+print (lst)
+lst.append(10)
+print (lst)
+del(lst[0:4])
+print (lst)
+print (lst.clear())

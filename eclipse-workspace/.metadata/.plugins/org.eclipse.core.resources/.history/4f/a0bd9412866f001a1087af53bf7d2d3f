@@ -1,0 +1,8 @@
+s =("""Hello World
+This is A multi line 
+Print statement, no more
+single line printing""")
+
+print (s)
+
+print (s[20])

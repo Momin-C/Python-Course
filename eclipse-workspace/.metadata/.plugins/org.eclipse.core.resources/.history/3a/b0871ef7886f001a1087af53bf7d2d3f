@@ -1,0 +1,11 @@
+
+s =("""   Hello World
+This is at multi line 
+Print statement, no more
+single line printing   """)
+
+print (s)
+
+
+print(s.strip)
+        
