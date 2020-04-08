@@ -1,4 +1,0 @@
-int a = 13
-float b = 100
-c = 66
-print (a, b, c)
