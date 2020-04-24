@@ -1,8 +1,11 @@
 class Student:
-    def __int__(self):
-        self.id = 123
-        self.name = "John"
+    def __init__(self):
+        self.__id = 123
+        self.__name = "John"
+    def display (self):
+        print (self.__id)
+        print (self.__name)
 
-S = Student()
-print (S.id)
-print (S.name)
+s = Student()
+s.display()
+print(s._Student__id)
