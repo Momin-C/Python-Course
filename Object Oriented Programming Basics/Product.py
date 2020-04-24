@@ -3,13 +3,12 @@ class Product:
         self.name = "iPhone"
         self.description = "It's Awesome!"
         self.price = 700
+    def display(self):
+        print (self.name)
+        print (p1.description)
+        print (p1.price)
 
 p1 = Product()
-print (p1.name)
-print (p1.description)
-print (p1.price)
-
+p1.display()
 p2 = Product()
-print (p2.name)
-print (p2.description)
-print (p1.price)
+p2.display()

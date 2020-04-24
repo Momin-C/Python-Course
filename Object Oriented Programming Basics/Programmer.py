@@ -10,8 +10,12 @@ class Programmer:
     def setTechnologies(self,techs):
         self.Technologies = techs
     def getTechnologies(self):
-        return self.technologies
+        return self.Technologies
 p1 = Programmer()
 p1.setName("John")
 p1.setSalary(10000)
 p1.setTechnologies(["Java","Python","Hibernate","Spring"])
+
+print (p1.getName())
+print (p1.getSalary())
+print (p1.getTechnologies())
