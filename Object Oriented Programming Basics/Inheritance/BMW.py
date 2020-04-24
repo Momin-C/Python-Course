@@ -22,10 +22,10 @@ class FiveSeries(BMW):
     def __init__(self,parkingAssist,make,model,year):
         super().__init__(self,make,model,year)
         self.parkingAssist = parkingAssist
-ThreeSeries = ThreeSeries(True,"Tesla","Model 3","2020")
-ThreeSeries.start()
-"""
-print (fiveSeries.parkingAssist)
-print (fiveSeries.make)
-print (fiveSeries.model)
-print (fiveSeries.year)"""
+bmw = ThreeSeries(True,"Tesla","Model 3","2020")
+bmw.start()
+
+print (bmw.cruiseControl)
+print (bmw.make)
+print (bmw.model)
+print (bmw.year)
