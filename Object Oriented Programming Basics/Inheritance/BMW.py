@@ -1,12 +1,21 @@
-class BMW:
+from abc import abstractmethod,ABC
+class BMW(ABC):
     def __init__(self,make,model,year):
         self.make = make
         self.model = model
         self.year = year
+
+    @abstractmethod
     def start(self):
-        print ("Starting the car")
+        pass
+
+    @abstractmethod
     def stop(self):
-        print ("Stopping the car")
+        pass
+
+    @abstractmethod
+    def drive(self):
+        pass
 
 class ThreeSeries(BMW):
     def __init__(self,cruiseControl,make,model,year):
@@ -17,11 +26,25 @@ class ThreeSeries(BMW):
     def start(self):
         super().start()
         print ("Button start")
+    def stop(self):
+        super().stop()
+        print ("Button stop")
+    def drive(self):
+        print ("Three Series is being Driven")
 
 class FiveSeries(BMW):
     def __init__(self,parkingAssist,make,model,year):
         super().__init__(self,make,model,year)
         self.parkingAssist = parkingAssist
+    def drive(self):
+        print ("Five Series is being Driven")
+    def start(self):
+        super().start()
+        print ("Remote start")
+    def stop(self):
+        super().stop()
+        print ("Remote stop")
+
 bmw = ThreeSeries(True,"Tesla","Model 3","2020")
 bmw.start()
 
