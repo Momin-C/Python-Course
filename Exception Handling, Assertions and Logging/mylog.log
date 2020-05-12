@@ -1,0 +1,10 @@
+CRITICAL:root:CRITICAL!
+ERROR:root:ERROR!
+CRITICAL:root:CRITICAL!
+ERROR:root:ERROR!
+WARNING:root:WARNING!
+INFO:root:INFORMATION!
+DEBUG:root:DEBUG!
+ERROR:root:ERROR!
+INFO:root:Division in progress
+ERROR:root:ERROR! Division by Zero
