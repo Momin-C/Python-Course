@@ -1,0 +1,6 @@
+name = input("File Name: ")
+phrase = input("Input phrase to add: ")
+writing = open(name,"w")
+writing.write(phrase)
+writing.read()
+writing.close()
